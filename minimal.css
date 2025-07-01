@@ -1,0 +1,12 @@
+/* minimal.css - test styles */
+body {
+    font-family: sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    margin: 2rem;
+}
+
+h1 {
+    color: darkblue;
+    font-size: 2.5rem;
+}
