@@ -36,7 +36,7 @@ Just drop this line into the `<head>` of your HTML and you're good to go:
 ```html
 <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.1/minimal.css"
+  href="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.2/minimal.css"
 />
 ```
 
@@ -45,7 +45,7 @@ Just drop this line into the `<head>` of your HTML and you're good to go:
 Just drop this script **before** `</body>` in your HTML:
 
 ```html
-<script src="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.1/theme-toggle.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.2/theme-toggle.js"></script>
 ```
 
 Add this button anywhere in your HTML:
