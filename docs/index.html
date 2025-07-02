@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>minimal.css – Docs & Demo</title>
+    <link rel="stylesheet" href="../minimal.css" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container text-center">
+        <h1>minimal.css</h1>
+        <p class="text-muted">Write some CSS, not all. A clean start for your HTML.</p>
+        <button id="github-star"><a href="https://github.com/the-ajay-panigrahi/minimalcss" target="_blank">
+                ⭐ Stars on GitHub: <span id="star-count">...</span> </a></button>
+
+        <button id="theme-toggle"><i class="fa-solid fa-moon"></i></button>
+    </div>
+
+    <div class="container">
+        <h2>📦 Introduction</h2>
+        <div class="card">
+            <strong>minimal.css</strong> makes your HTML look clean out of the box - no setup, no fuss. It's easy to
+            override, so
+            you can focus on layout and building real things, not styling every little element.
+        </div>
+        <div class="section-divider"></div>
+
+
+        <h2>✨ Features</h2>
+        <div class="card">
+            <ul class="no-margin-b">
+                <li>Looks good by default</li>
+                <li>Light & dark mode built-in</li>
+                <li>Clean forms, tables, buttons</li>
+                <li>Responsive on all screens</li>
+                <li class="no-margin-b">No extra libraries needed</li>
+            </ul>
+        </div>
+        <div class="section-divider"></div>
+
+        <h2>🤔 Why I Made This</h2>
+        <div class="card">
+            <p>Big CSS frameworks felt too much for small or quick projects.</p>
+            <p>I was tired of resetting styles, fixing form inputs, and tweaking buttons every time.</p>
+            <p>Most times, I just needed clean, usable defaults - not a full design system.</p>
+            <p><strong>minimal.css</strong> gives a solid starting point so I can focus on layout and logic, not the
+                nitty-gritty of
+                styling.</p>
+            <p class="no-margin-b">It helps you skip the boring parts and build faster with less fuss.</p>
+        </div>
+        <div class="section-divider"></div>
+
+        <h2>🚀 How to Use</h2>
+        <p>Just drop this line into the <code>&lt;head&gt;</code> of your HTML and you're good to go:</p>
+        <div class="card">
+            <code
+                id="cdn-text">&lt;link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.1/minimal.css" /&gt;</code>
+        </div>
+        <button class="copy-btn" data-clipboard-target="#cdn-text">Copy</button>
+        <p class="mt-3">No build tools, no setup — just clean styles instantly.</p>
+
+        <div class="section-divider"></div>
+
+        <h2>📐 Typography & Links</h2>
+
+        <div class="card">
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+            <p class="no-margin-b">This is a regular paragraph. You can include <a href="#">links</a> inside it too.</p>
+        </div>
+
+
+        <div class="section-divider"></div>
+
+        <h2>📋 Lists</h2>
+
+        <div class="card">
+            <h3>Unordered List</h3>
+            <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+            </ul>
+
+            <h3>Ordered List</h3>
+            <ol>
+                <li>Step one</li>
+                <li>Step two</li>
+                <li>Step three</li>
+            </ol>
+
+            <h3>Nested Lists</h3>
+            <ul>
+                <li>Frontend
+                    <ul>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                    </ul>
+                </li>
+                <li>Backend
+                    <ul>
+                        <li>Node.js</li>
+                        <li>Python</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="section-divider"></div>
+
+
+
+        <h2>📊 Tables</h2>
+
+        <h3>📏 Small Table</h3>
+        <div class="table-small">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Item</th>
+                            <th>Qty</th>
+                            <th>Price</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Pen</td>
+                            <td>2</td>
+                            <td>$1</td>
+                        </tr>
+                        <tr>
+                            <td>Notebook</td>
+                            <td>1</td>
+                            <td>$3</td>
+                        </tr>
+                        <tr>
+                            <td>Pencil</td>
+                            <td>5</td>
+                            <td>$0.50</td>
+                        </tr>
+                        <tr>
+                            <td>Eraser</td>
+                            <td>3</td>
+                            <td>$0.75</td>
+                        </tr>
+                        <tr>
+                            <td>Marker</td>
+                            <td>4</td>
+                            <td>$1.20</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h3>🧮 Medium Table</h3>
+        <div class="table-medium">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Role</th>
+                            <th>Status</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Ajay</td>
+                            <td>Developer</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>Alex</td>
+                            <td>Designer</td>
+                            <td>Inactive</td>
+                        </tr>
+                        <tr>
+                            <td>Sam</td>
+                            <td>Tester</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>Riya</td>
+                            <td>Manager</td>
+                            <td>Active</td>
+                        </tr>
+                        <tr>
+                            <td>John</td>
+                            <td>Support</td>
+                            <td>Inactive</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <h3>🧾 Large Table</h3>
+        <div class="table-large">
+            <div class="table-wrapper">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Order ID</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Payment</th>
+                            <th>Status</th>
+                            <th>Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>#1001</td>
+                            <td>Alice</td>
+                            <td>$250</td>
+                            <td>Credit Card</td>
+                            <td>Completed</td>
+                            <td>2025-07-01</td>
+                        </tr>
+                        <tr>
+                            <td>#1002</td>
+                            <td>Bob</td>
+                            <td>$120</td>
+                            <td>UPI</td>
+                            <td>Pending</td>
+                            <td>2025-07-02</td>
+                        </tr>
+                        <tr>
+                            <td>#1003</td>
+                            <td>Charlie</td>
+                            <td>$90</td>
+                            <td>PayPal</td>
+                            <td>Completed</td>
+                            <td>2025-07-03</td>
+                        </tr>
+                        <tr>
+                            <td>#1004</td>
+                            <td>Diana</td>
+                            <td>$180</td>
+                            <td>Cash</td>
+                            <td>Failed</td>
+                            <td>2025-07-04</td>
+                        </tr>
+                        <tr>
+                            <td>#1005</td>
+                            <td>Eva</td>
+                            <td>$300</td>
+                            <td>Credit Card</td>
+                            <td>Completed</td>
+                            <td>2025-07-05</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+
+        <div class="section-divider"></div>
+
+
+
+        <h2>✍️ Forms</h2>
+
+        <form class="card">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="you@example.com" />
+
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message..."></textarea>
+
+            <label>
+                <input type="checkbox" id="subscribe" />
+                Subscribe to newsletter
+            </label>
+
+            <label for="color">Pick a color</label>
+            <input type="color" id="color" />
+
+            <label for="date">Choose a date</label>
+            <input type="date" id="date" />
+
+            <label for="volume">Volume</label>
+            <input type="range" id="volume" min="0" max="100" />
+
+            <label for="country">Country</label>
+            <select id="country">
+                <option value="" disabled selected>Select your country</option>
+                <option>USA</option>
+                <option>India</option>
+                <option>UK</option>
+                <option>Australia</option>
+            </select>
+
+            <button type="submit" class="btn">Submit</button>
+        </form>
+
+
+
+        <div class="section-divider"></div>
+
+
+
+        <h2>🖱️ Buttons</h2>
+        <button class="mt-4">Submit</button>
+        <button class="mt-4" disabled>Disabled</button>
+
+        <div class="section-divider"></div>
+
+
+        <h2>🖼️ Media</h2>
+
+        <h3>
+            <i class="fa-solid fa-image"></i> &nbsp; Image
+        </h3>
+        <img src="https://avatars.githubusercontent.com/u/168801266?v=4" alt="Placeholder image" width="300" />
+
+        <h3><i class="fa-solid fa-video"></i> &nbsp; Video</h3>
+        <video controls width="300"
+            src="https://videos.pexels.com/video-files/3694915/3694915-uhd_1440_2560_30fps.mp4"></video>
+
+        <h3><span id="em-vid-icon">📺</span> Embedded Video (iframe)</h3>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/0foZzv8uCR8?si=SCmkBi9Qw644RKtO"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+        </iframe>
+
+
+
+        <h3>🎵 Audio</h3>
+        <audio controls src="./assets/funny-alarm.mp3"></audio>
+
+
+
+        <div class="section-divider"></div>
+
+        <h2 class="mb-2">🧩 Others</h2>
+
+        <h3 class="mb-3">💻 Code Tag</h3>
+        <code>console.log("Hello, world!");</code>
+
+        <h3 class="mt-5">📜 Pre Tag</h3>
+        <pre>
+ function fixBug() {
+    console.log("Hmm... works on my machine 🤷‍♂️");
+    return "Ship it! 🚢";
+ }</pre>
+
+        <h3 class="mt-5">🧠 Quote Tag</h3>
+        <blockquote>
+            You learn more from errors than from code -
+            Hitesh Choudhary
+        </blockquote>
+
+        <div class="section-divider"></div>
+        <h2 class="mb-4">🧰 Utilities & Helper Classes</h2>
+
+        <div class="card flex flex-center mb-4" style="height: 100px;">
+            <p class="text-muted no-margin-b">This card uses <code>.flex</code> and <code>.flex-center</code> to center
+                content both
+                horizontally and vertically.</p>
+        </div>
+        <div class="card text-center">
+            <p class="mb-2 no-margin-b">.text-center</p>
+        </div>
+
+        <p class="text-center no-margin-b"><i class="fa-solid fa-plus"></i> Many More</p>
+    </div>
+
+    <footer>
+        <p class="text-center mt-4">
+            ⭐ Like this project? <a href="https://github.com/the-ajay-panigrahi/minimalcss" target="_blank">Give it a
+                star on
+                GitHub!</a>
+        </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.11/dist/clipboard.min.js"></script>
+
+    <script src="./script.js">
+
+    </script>
+</body>
+
+</html>

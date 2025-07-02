@@ -1,45 +1,45 @@
-# minimalCSS
+# minimal.css
 
-A clean and lightweight CSS starter file to style basic HTML elements.
+**Write some CSS, not all. A clean start for your HTML.**
 
-This is not a full CSS framework — just a minimal base style to help you avoid writing too much CSS from scratch.
+## 📦 Introduction
+
+**minimal.css** makes your HTML look clean out of the box - no setup, no fuss.  
+It's easy to override, so you can focus on layout and building real things, not styling every little element.
+
+🌐 Live Demo: [https://minimalcss.vercel.app](https://minimalcss.vercel.app)
+
+## ✨ Features
+
+- Looks good by default
+- Light & dark mode built-in
+- Clean forms, tables, buttons
+- Responsive on all screens
+- No extra libraries needed
+
+## 🤔 Why I Made This
+
+Big CSS frameworks felt too much for small or quick projects.
+
+I was tired of resetting styles, fixing form inputs, and tweaking buttons every time.
+
+Most times, I just needed clean, usable defaults - not a full design system.
+
+**minimal.css** gives a solid starting point so I can focus on layout and logic, not the nitty-gritty of styling.
+
+It helps you skip the boring parts and build faster with less fuss.
+
+## 🚀 How to Use
+
+Just drop this line into the `<head>` of your HTML and you're good to go:
+
+```html
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.1/minimal.css"
+/>
+```
 
 ---
 
-## 📦 How to Use (via CDN)
-
-You can use `minimalCSS` directly in your HTML by adding this line inside your `<head>` tag:
-
-```
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss/minimal.css" />
-```
-
-That’s it! No need to download or install anything.
-
-## 🧪 Example
-
-```html
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>minimalCSS Example</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss/minimal.css"
-    />
-    <style>
-      /* You can override styles like this */
-      h1 {
-        color: darkgreen;
-        text-align: center;
-      }
-    </style>
-  </head>
-  <body>
-    <h1>Hello minimalCSS</h1>
-    <p>This is a paragraph styled with minimalCSS.</p>
-  </body>
-</html>
-```
+⭐ Found this project helpful? Show your support by starring the repository - it means a lot!

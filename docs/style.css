@@ -1,0 +1,12 @@
+#github-star:hover > a {
+  text-decoration: none;
+  color: white;
+}
+
+.no-margin-b {
+  margin-bottom: 0;
+}
+
+#em-vid-icon {
+  font-size: 27px;
+}
