@@ -40,6 +40,24 @@ Just drop this line into the `<head>` of your HTML and you're good to go:
 />
 ```
 
+## 🌗 How to Add Dark Mode
+
+Just drop this script **before** `</body>` in your HTML:
+
+```html
+<script src="https://cdn.jsdelivr.net/gh/the-ajay-panigrahi/minimalcss@v1.0.1/theme-toggle.js"></script>
+```
+
+Add this button anywhere in your HTML:
+
+```html
+<button class="theme-toggle">Dark Theme</button>
+```
+
+That’s it — it works instantly!
+
+🌓 The script automatically remembers the user’s theme using localStorage, and switches between dark and light.
+
 ---
 
 ⭐ Found this project helpful? Show your support by starring the repository - it means a lot!
