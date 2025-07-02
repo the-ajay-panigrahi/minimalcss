@@ -1,4 +1,4 @@
-const toggleBtn = document.getElementById('theme-toggle');
+const toggleBtn = document.querySelector('.theme-toggle');
 const root = document.documentElement;
 
 function updateToggleText(theme) {
