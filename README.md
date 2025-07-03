@@ -7,6 +7,11 @@
 **minimal.css** makes your HTML look clean out of the box - no setup, no fuss.  
 It's easy to override, so you can focus on layout and building real things, not styling every little element.
 
+## 🎥 Watch How to Use minimal.css  
+[![Watch on YouTube](./docs/assets/minimalcss-thumbnail.png)](https://youtu.be/qI8rkins4k4)
+
+
+
 🌐 Live Demo: [https://minimalcss.vercel.app](https://minimalcss.vercel.app)
 
 ## ✨ Features
